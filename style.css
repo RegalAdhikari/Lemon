@@ -37,6 +37,9 @@ color: #000;
 font-weight: 550;
 font-size: 16px;
 }
+#lnavr a:hover{
+    color: blue;
+}
 #left #textcenter{
     position: absolute;
     top: 50%;
@@ -61,7 +64,9 @@ font-size: 16px;
    font-size: 16px;
    font-weight: 600;
    opacity: .6;
-
+}
+#textcenter a:hover{
+    color: blue;
 }
 #right{
     width: 60%;
