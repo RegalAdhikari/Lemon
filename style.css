@@ -16,6 +16,7 @@ html,body{
 
 }
 #left{
+    position: relative;
     width: 40%;
     height: 100%;
 }
@@ -36,7 +37,32 @@ color: #000;
 font-weight: 550;
 font-size: 16px;
 }
+#left #textcenter{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+#textcenter h1{
+    font-size: 100px;
+}
+#textcenter p{
+    opacity: .6;
+    font-size: 16px;
+    line-height: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#textcenter a{
+   text-decoration: none;
+   color: #000;
+   border-bottom: 1px solid black;
+   padding-bottom: 5px;
+   font-size: 16px;
+   font-weight: 600;
+   opacity: .6;
 
+}
 #right{
     width: 60%;
     height: 100%;
